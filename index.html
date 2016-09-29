@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <title>Vue Select | VueJS Select2 Component</title>
+
+  <link href="//fonts.googleapis.com/css?family=Source+Sans+Pro:400,600|Roboto Mono" rel="stylesheet" type="text/css">
+  <link href="//fonts.googleapis.com/css?family=Dosis:300&amp;text=Vue Select" rel="stylesheet" type="text/css">
+  <link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1q8mTJOASx8j1Au+a5WDVnPi2lkFfwwEAa8hDDdjZlpLegxhjVME1fgjWPGmkzs7"
+    crossorigin="anonymous">
+
+
+  <link rel="icon" href="static/vue-logo.png" type="image/png">
+
+</head>
+
+<body>
+  <div class="jumbotron jumbotron-top">
+    <div class="container">
+      <div class="col-md-8 col-md-offset-2">
+
+        <h1>Vue Select</h1>
+
+        <p class="lead">A native Vue.js select component that provides similar functionality to Select2/Chosen without the overhead of jQuery.</p>
+
+        <v-select id="v-select" taggable :placeholder="placeholder" :value="selected" :options="['foo','bar','baz']" multiple :on-change="setSelected">
+        </v-select>
+
+        <div class="row">
+          <div class="col-md-3 col-md-offset-3">
+            <ul class="list-vue">
+              <li>Fully Reactive</li>
+              <li>Tagging Support <small>v1.1.0</small></li>
+              <li>Works with Vuex</li>
+              <li>Zero dependencies</li>
+            </ul>
+          </div>
+          <div class="col-md-3">
+            <ul class="list-vue">
+              <li>+95% Test Coverage</li>
+              <li>Select Single/Multiple</li>
+              <li>Typeahead Suggestions</li>
+              <li>Bootstrap Friendly Markup</li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <app></app>
+
+</body>
+
+</html>

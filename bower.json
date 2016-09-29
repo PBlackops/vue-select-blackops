@@ -1,0 +1,29 @@
+{
+  "name": "vue-select-blackops",
+  "description": "A native Vue.js select component.",
+  "main": "dist/vue-select.js",
+  "homepage": "https://github.com/PBlackops/vue-select-blackops",
+  "version": "1.5.0",
+  "authors": [
+    "Grant Stampfli <mail@gstampfli.com>"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/PBlackops/vue-select-blackops"
+  },
+  "license": "MIT",
+  "keywords": [
+  ],
+  "moduleType": [
+    "amd",
+    "node",
+    "es6"
+  ],
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ]
+}
