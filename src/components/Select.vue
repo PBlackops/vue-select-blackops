@@ -48,9 +48,10 @@
 	.v-select-wrap .dropdown-toggle {
 		display: block;
 		width: 100%;
-		padding: 0.5rem 0.75rem;
+		padding: .5rem .75rem;
 		font-size: 1rem;
 		line-height: 1.25;
+		min-height:2.5rem;
 		color: #55595c;
 		background-color: #fff;
 		background-image: none;
