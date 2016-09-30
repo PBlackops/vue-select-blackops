@@ -8,8 +8,8 @@
 	.v-select-wrap .open-indicator {
 		position: absolute;
 		top: 50%;
-		right: 12px;
-		margin-top:-6px;
+		right: .875rem;
+		margin-top:-.5rem;
 		display: inline-block;
 		cursor: pointer;
 		pointer-events: all;
@@ -24,15 +24,15 @@
 	}
 
 	.v-select-wrap .open-indicator:before {
-		border-color: rgba(60, 60, 60, .5);
-		border-style: solid;
-		border-width: 0.25em 0.25em 0 0;
-		content: '';
-		display: inline-block;
-		height: 10px;
-		width: 10px;
+		content: "\f0d8";
 		vertical-align: top;
-		transform: rotate(133deg);
+		display: inline-block;
+		font: normal normal normal 14px/1 FontAwesome;
+		font-size: inherit;
+		text-rendering: auto;
+		-webkit-font-smoothing: antialiased;
+		-moz-osx-font-smoothing: grayscale;
+		transform: rotate(180deg);
 		transition: all 150ms cubic-bezier(1.000, -0.115, 0.975, 0.855);
 		transition-timing-function: cubic-bezier(1.000, -0.115, 0.975, 0.855);
 	}
@@ -42,7 +42,7 @@
 	}
 
 	.v-select-wrap.open .open-indicator:before {
-		transform: rotate(315deg);
+		transform: rotate(360deg);
 	}
 
 	.v-select-wrap .dropdown-toggle {
@@ -95,12 +95,12 @@
 	}
 	.v-select-wrap > .dropdown-menu li a{
 		display:block;
+		padding:.25rem .5rem;
 	}
 
 	.v-select .selected-tag {
 		color: #000;
 		float:left;
-		line-height:2.5;
 		font-size:16px;
 	}
 
@@ -153,15 +153,14 @@
 	}
 
 	.v-select .active a {
-		background: #505050;
-		color: #000;
-		font-weight:bold;
+		background: #005a2c;
+		color: #fff;
 	}
 
 	.v-select .highlight a,
-	.v-select li:hover > a {
-		background: #2d5a87;
-		color: #fff;
+	.v-select li:hover > a:hover {
+		background: #e1e1e1;
+		color: #000;
 	}
 
 	.v-select .spinner {
